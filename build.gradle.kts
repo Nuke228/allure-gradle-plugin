@@ -19,11 +19,11 @@ dependencies {
 }
 
 gradlePlugin {
-    website.set("https://github.com/AnyaBondarenko/allure-gradle-plugin")
-    vcsUrl.set("https://github.com/AnyaBondarenko/allure-gradle-plugin")
+    website.set("https://github.com/Nuke228/allure-gradle-plugin")
+    vcsUrl.set("https://github.com/Nuke228/allure-gradle-plugin")
     plugins {
         create("syncTestCases") {
-            id = "io.github.allureidea.sync-testcases"
+            id = "io.github.nuke228.allure-sync-testcases"
             implementationClass = "com.github.allureidea.gradle.AllureTestOpsPlugin"
             displayName = "Allure TestOps Test Case Sync"
             description = "Scans source code for @Test methods without @AllureId, creates test cases in Allure TestOps and annotates the source back."
